@@ -21,3 +21,7 @@ Stakeholder: Yes, I think it would be helpful to have a way to track student pro
 Interviewer: Thank you, that's really helpful feedback. Is there anything else that you think would be important for us to know as we develop this application?
 
 Stakeholder: Just that it needs to be user-friendly and easy to use. We don't want to add more complexity to our already busy schedules, so anything that can make our lives easier and more efficient would be greatly appreciated.
+
+Interviewer: How can we generate revenue without charging the students?
+
+Stakeholder: One potential way to generate revenue without charging the students directly is to explore partnerships and collaborations with educational service providers. For example, the university management application could integrate with textbook providers or online learning platforms, and earn a referral or partnership fee for each transaction or subscription made through the app.

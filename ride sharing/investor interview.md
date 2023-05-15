@@ -20,7 +20,7 @@ Stakeholder: Of course. One concern I have is the level of competition in the ri
 
 Interviewer: Those are all valid concerns. Can you tell me what kind of return on investment you are looking for in this project?
 
-Stakeholder: As with any investment, I'm looking for a strong return on investment. However, I also understand that this is a high-risk, high-reward industry and there are no guarantees. I would be looking for a potential return that is commensurate with the level of risk involved.
+Stakeholder: As with any investment, I'm looking for a strong return on investment. Certainly, one potential way to make money with this ride-sharing app is by implementing a commission-based model. For each ride facilitated through the app, a percentage or fixed fee can be charged to the drivers as a commission. This way, the app can generate revenue based on the volume of rides being booked, allowing for a scalable income stream. Additionally, offering premium subscription plans to drivers that provide additional benefits and features can also be explored as an avenue to generate additional revenue. However, I also understand that this is a high-risk, high-reward industry and there are no guarantees. I would be looking for a potential return that is commensurate with the level of risk involved.
 
 Interviewer: Thank you for your insights. Can you tell me if you have any other questions or comments regarding the project?
 
