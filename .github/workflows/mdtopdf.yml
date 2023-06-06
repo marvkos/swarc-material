@@ -22,6 +22,7 @@ jobs:
           image_import: images
       
       - name: Upload PDF
+        uses: actions/upload-artifact@v3.1.2
         with:
           name: arc42
           path: pdf
