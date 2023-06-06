@@ -20,6 +20,7 @@ jobs:
           output_dir: pdf
           image_dir: arc42/images
           image_import: images
+          build_html: false
       
       - name: Upload PDF
         uses: actions/upload-artifact@v3.1.2
