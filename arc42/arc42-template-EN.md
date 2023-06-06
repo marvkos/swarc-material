@@ -19,6 +19,8 @@ concepts. For documentation of your own system you use better the
 
 </div>
 
+<div style="page-break-after: always;"></div>
+
 # Introduction and Goals
 
 Describes the relevant requirements and the driving forces that software
@@ -156,6 +158,8 @@ to the architecture and its documentation.
 | *\<Role-1>* | *\<Contact-1>* | *\<Expectation-1>* |
 | *\<Role-2>* | *\<Contact-2>* | *\<Expectation-2>* |
 
+<div style="page-break-after: always;"></div>
+
 # Architecture Constraints
 
 <div class="formalpara-title">
@@ -192,6 +196,8 @@ documentation or naming conventions)
 
 See [Architecture Constraints](https://docs.arc42.org/section-2/) in the
 arc42 documentation.
+
+<div style="page-break-after: always;"></div>
 
 # System Scope and Context
 
@@ -312,6 +318,8 @@ and input/output.
 
 **\<Mapping Input/Output to Channels>**
 
+<div style="page-break-after: always;"></div>
+
 # Solution Strategy
 
 <div class="formalpara-title">
@@ -357,6 +365,8 @@ in the following sections.
 
 See [Solution Strategy](https://docs.arc42.org/section-4/) in the arc42
 documentation.
+
+<div style="page-break-after: always;"></div>
 
 # Building Block View
 
@@ -561,6 +571,8 @@ Specifies the internal structure of *building block x.1*.
 
 *\<white box template>*
 
+<div style="page-break-after: always;"></div>
+
 # Runtime View
 
 <div class="formalpara-title">
@@ -634,6 +646,8 @@ documentation.
 ## …
 
 ## \<Runtime Scenario n>
+
+<div style="page-break-after: always;"></div>
 
 # Deployment View
 
@@ -743,6 +757,8 @@ Please copy the structure from level 1 for each selected element.
 
 *\<diagram + explanation>*
 
+<div style="page-break-after: always;"></div>
+
 # Cross-cutting Concepts
 
 <div class="formalpara-title">
@@ -843,6 +859,8 @@ documentation.
 
 *\<explanation>*
 
+<div style="page-break-after: always;"></div>
+
 # Architecture Decisions
 
 <div class="formalpara-title">
@@ -890,6 +908,8 @@ Various options:
 
 See [Architecture Decisions](https://docs.arc42.org/section-9/) in the
 arc42 documentation. There you will find links and examples about ADR.
+
+<div style="page-break-after: always;"></div>
 
 # Quality Requirements
 
@@ -1004,6 +1024,8 @@ evaluated.
 
 Tabular or free form text.
 
+<div style="page-break-after: always;"></div>
+
 # Risks and Technical Debts
 
 <div class="formalpara-title">
@@ -1040,6 +1062,8 @@ measures to minimize, mitigate or avoid risks or reduce technical debts.
 
 See [Risks and Technical Debt](https://docs.arc42.org/section-11/) in
 the arc42 documentation.
+
+<div style="page-break-after: always;"></div>
 
 # Glossary
 
