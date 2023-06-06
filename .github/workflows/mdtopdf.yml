@@ -1,0 +1,27 @@
+name: Generate PDF
+
+on:
+  push:
+    branches: [ "main" ]
+    
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Markdown to PDF
+        uses: BaileyJM02/markdown-to-pdf@v1.2.0
+        with:
+          input_dir: arc42
+          output_dir: pdf
+          image_dir: arc42/images
+          image_import: images
+      
+      - name: Upload PDF
+        with:
+          name: arc42
+          path: pdf
