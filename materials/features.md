@@ -1,4 +1,4 @@
-# Solitions, Decisions and Risks
+# Solutions, Decisions and Risks
 ## Solution Strategy
 Recognizing difficulties and finding solutions for our goals.
 ![Solution Strategy](solution-strategy.png)
