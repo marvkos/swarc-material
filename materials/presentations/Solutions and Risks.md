@@ -11,9 +11,9 @@
  ## Architecture Decisions ##
  Problem| Considered Alternatives| Decision|
 |:--------:|------------| ------------|
-|Services doesn’t work (payment)| Make own payment service, use more services (intern.) | |
-|OS compatibility problems| | |
-|Cost management |  Cloud services costs need to be monitored and managed | |
+|Services doesn’t work (payment)| Make own payment service, use more services (intern.) | We decided to make our own payment service.|
+|OS compatibility problems| Use compatibility patches, rewrite code for compatibility| We are considering using compatibility patches.|
+|Cost management |  Cloud services costs need to be monitored and managed | We are implementing cost monitoring measures.|
 
 
 ## Risks and Technical Debt ##
