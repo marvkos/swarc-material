@@ -58,6 +58,6 @@ Recognizing risks with our architectural decision and suggesting measures to min
 
 # Architecture Constraints
 ## Architecture Constraints
-![Alt text](image-2.png)
+![Architecture Constraints](architecture_contstraints.png)
 ## Business Context
-![Alt text](image-1.png)
+![Business Context](business_context.png)
