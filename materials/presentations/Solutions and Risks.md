@@ -24,3 +24,5 @@ Risk/Technical Debt| Description|
 |Outdated technology | International companys have maybe services that are older and can lead to higher maintance costs, security issues, finding developers…|
 
 
+
+
