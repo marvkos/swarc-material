@@ -56,3 +56,8 @@ Looking at architecture from different angles to get more viewpoints and decide 
 Recognizing risks with our architectural decision and suggesting measures to minimize the the technical debt.
 ![Risks and Technical Debt](technical-debt.png)
 
+# Architecture Constraints
+## Architecture Constraints
+![Alt text](image-2.png)
+## Business Context
+![Alt text](image-1.png)
