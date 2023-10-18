@@ -1,6 +1,6 @@
 # Architecture Constraints #
 
- Constraints      | Background and/or motivation       |
+Constraints      | Background and/or motivation       |
 | ------------- |:-------------------:|
 |devices independent| 	The app should work independently on a variety of devices |
 | Payment Intergration|The app needs to integrate with various payment gateways and comply with local financial laws, including taxes and currency conversion |
