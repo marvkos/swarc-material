@@ -9,3 +9,4 @@ Constraints      | Background and/or motivation       |
 |Language | As an international company, it is important to us to make the app available in several languages
 
 
+![grafik](https://github.com/Csisko3/SWARC-CarCompass/assets/131276050/aae99965-4531-4c89-83cd-a0c39f8d52ca)
