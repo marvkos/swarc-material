@@ -24,3 +24,7 @@ Recognizing risks with our architectural decision and suggesting measures to min
 ![Business Context](images/business_context.png)
 
 # 4. Crosscutting Concepts
+## 4.1 Crosscutting Concepts
+![Crosscutting Concepts](images/crosscutting-concepts.png)
+## 4.2 Decisions
+![Decisions](images/decisions.png)
