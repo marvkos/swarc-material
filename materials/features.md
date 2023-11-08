@@ -28,3 +28,9 @@ Recognizing risks with our architectural decision and suggesting measures to min
 ![Crosscutting Concepts](images/crosscutting-concepts.png)
 ## 4.2 Decisions
 ![Decisions](images/decisions.png)
+
+# 5. Quality
+## 5.1 Quality Goals and Scenarios
+![Quality Goals and Scenarios](images/QualityGoalsScenarios.png)
+## 5.2 Quality Tree
+![Quality Tree](images/QualityTree.png)
