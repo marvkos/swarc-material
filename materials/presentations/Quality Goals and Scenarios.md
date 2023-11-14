@@ -4,8 +4,7 @@
  Goal
 
  * Data Security should not influence the User Experience 
-   
-   Feeling safe and secure while using the app without feeling restricted 
+    - Feeling safe and secure while using the app without feeling restricted 
 
 Goal
 
