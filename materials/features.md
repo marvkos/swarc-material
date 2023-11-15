@@ -34,3 +34,9 @@ Recognizing risks with our architectural decision and suggesting measures to min
 ![Quality Goals and Scenarios](images/QualityGoalsScenarios.png)
 ## 5.2 Quality Tree
 ![Quality Tree](images/QualityTree.png)
+
+# 6. Building Block View
+## 6.1 Level 1
+![Level 1](images/Level1.png)
+## 6.2 Level 2
+![Level 2 Timetable](images/Level2Timetable.png)
