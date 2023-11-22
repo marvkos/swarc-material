@@ -40,3 +40,10 @@ Recognizing risks with our architectural decision and suggesting measures to min
 ![Level 1](images/Level1.png)
 ## 6.2 Level 2
 ![Level 2 Timetable](images/Level2Timetable.png)
+# 7. Runtime View
+## Lektor krank
+Lektor meldet sich krank beim Systemadministrator, der Timetable muss angepasst werden.
+![Lektor krank](images/Lektor_krank.png)
+## Harald zahlt
+Ein neues Studiensemester beginnt, Harald, ein Student, muss seine Studiengebühren für das kommende Semester bezahlen.
+![Harald zahlt](images/Harald_zahlt.png)
