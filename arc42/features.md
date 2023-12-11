@@ -38,9 +38,9 @@ Ein neues Studiensemester beginnt, Harald, ein Student, muss seine Studiengebüh
 # 6. Deployment View
 ## 6.1 CAP-Theorem
 Ein CP System ist für OWLS am Besten geeignet. <br>
-<strong>Consistency</strong> verfügbar ist in allen Systemen. Wenn ein Lektor sich krankmeldet und der Systemadmin den Stundenplan anpasst, wird dieser sofort für alle Nutzer aktualisiert. Ebenso passiert dies bei Website Anpassungen. Für eine bessere <strong>Consistency</strong> wird ein to-face-commit implementiert um beispielsweise die Noten der Studenten fehlerfrei anzeigen zu lassen. <br>
+Besonders wichtig für uns ist die <strong>Consistency</strong>, welche in allen Systemen vorhanden sein sollte. Wenn ein Lektor sich krankmeldet und der Systemadmin den Stundenplan anpasst, wird dieser sofort für alle Nutzer aktualisiert. Ebenso passiert dies bei Website Anpassungen. Für eine bessere <strong>Consistency</strong> wird ein to-face-commit implementiert um beispielsweise die Noten der Studenten fehlerfrei anzeigen zu lassen. <br>
 Ebenso wichtig für uns ist <strong>Partitioning</strong>, da unser System nach einem Netzwerkausfall nicht weiterarbeiten kann und <strong>Partitioning</strong> zwingend notwendig ist für einen two-face-commit.<br>
-<strong>Availability</strong> ist weniger wichtig, da bei Ausfall des Clients eine Datenpräservation nicht von besonders hoher Importanz ist. Wie in 5.2 erwähnt, brauchen wir für Updates unseres Systems einen gewissen Platz zum Atmen um diese vollständig zu implementieren. Hierfür würde allerdings das System für einige Zeit unverfügbar sein, was allerdings kein Problem sein sollte. OWLS wird bereitgestellt für Universitäten mit rund 5.000 Schülern von denen sich der Großteil in derselben Zeitzone befindet. 
+<strong>Availability</strong> ist weniger wichtig, da bei Ausfall des Clients eine Datenpräservation nicht von besonders hoher Importanz ist. Wie wir später in 9.2 noch erläutern, brauchen wir für Updates unseres Systems einen gewissen Platz zum Atmen um diese vollständig zu implementieren. Hierfür würde allerdings das System für einige Zeit unverfügbar sein, was allerdings kein Problem sein sollte. OWLS wird bereitgestellt für Universitäten mit rund 5.000 Schülern von denen sich der Großteil in derselben Zeitzone befindet. 
 ## 6.2 Deployment Diagram
 ![Deployment Diagram](images/deployment-diagram.png)
 
@@ -61,3 +61,10 @@ Recognizing risks with our architectural decision and suggesting measures to min
 ![Risks and Technical Debt](images/technical-debt.png)
 
 # 11. Glossary
+TLC - Training Learning Center
+API - Application Programming Interface
+MAPI - Messaging -API
+REST - Representational State Transfer
+Moodle - Learning platform for students
+DB - Database
+
