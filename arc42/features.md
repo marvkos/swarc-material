@@ -61,10 +61,10 @@ Recognizing risks with our architectural decision and suggesting measures to min
 ![Risks and Technical Debt](images/technical-debt.png)
 
 # 11. Glossary
-TLC - Training Learning Center
-API - Application Programming Interface
-MAPI - Messaging -API
-REST - Representational State Transfer
-Moodle - Learning platform for students
+TLC - Training Learning Center<br>
+API - Application Programming Interface<br>
+MAPI - Messaging -API<br>
+REST - Representational State Transfer<br>
+Moodle - Learning platform for students<br>
 DB - Database
 
