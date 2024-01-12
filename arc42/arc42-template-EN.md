@@ -33,7 +33,7 @@ information system and financial management system.
 
 <div class="formalpara-title">
 
-**Main features**
+**Main features ([Business Requirements Document: Section 4. Features](../materials/university%20managment/brd.md))**
 - User authentication and authorization
 - Dashboard with relevant information and alerts
 - Course and curriculum management
@@ -44,12 +44,16 @@ information system and financial management system.
 - Reporting and analytics
 
 The application must handle approximately 35.000 total and approximately 
-5.000 concurrent users. The System should be able to keep track of
+5.000 concurrent users. The system should be able to keep track of
 5-10 courses per student in the span of one semester, storing all course 
 information and attendance. Furthermore, the application should enable
 users to make data-driven decision through reporting and analytics.
 
-## Quality Goals
+## Quality Goals 
+
+The top three quality goals for the architecture whose fulfillment is of 
+the highest importance to the major stakeholders can be found in the following table. 
+The quality characteristics are selected in accordance with the ISO 25010 standard.
 
 | Priority | Quality           | Motivation                                                                    |
 |----------|-------------------|-------------------------------------------------------------------------------|
@@ -57,7 +61,11 @@ users to make data-driven decision through reporting and analytics.
 | *2*      | *Usability*       | *The application should make processes more efficient and save time*          |
 | *3*      | *Maintainability* | *Specific requirements are expected to change during the lifetime of the app* |
 
+The complete overview of quality scenarios can be found in [Quality Scenarios](##quality Scenarios).
+
 ## Stakeholders
+
+Found in [Business Requirements Document: Section 6. Sign-off](../materials/university%20managment/brd.md)
 
 | Name            | Role                        | Expectations                                                                                          |
 |-----------------|-----------------------------|-------------------------------------------------------------------------------------------------------|
@@ -72,12 +80,16 @@ users to make data-driven decision through reporting and analytics.
 <div class="formalpara-title">
 
 AcademiX shall be:
-
-- platform-independent and should be accessible from all common web browsers (e.g. Chrome, Safari, Edge, Firefox and Samsung Internet) 
+- platform-independent and should be accessible from all common web browsers (e.g. Chrome, Safari, Edge, Firefox and Samsung Internet), Android and iOS devices
 - developed using modern web development technologies such as React, Node.js, and MongoDB
 - hosted on a secure and scalable cloud infrastructure such as AWS or Azure
 - integrated with the university's existing student information system and financial management system
-- complied with applicable data protection and privacy regulations
+- compiling with applicable data protection and privacy regulations
+- verified by using automated tests
+- operating within a predetermined monthly cloud budget
+- presenting no barriers to people with physical disabilities
+
+Taken from [Business Requirements Document: Section 5. Assumptions and Dependencies](../materials/university%20managment/brd.md)
 
 # System Scope and Context
 
