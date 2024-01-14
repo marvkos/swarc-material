@@ -49,6 +49,9 @@ The application must handle approximately 35.000 total and approximately
 information and attendance. Furthermore, the application should enable
 users to make data-driven decision through reporting and analytics.
 
+A [use case document](../materials/university%20managment/use%20case%20document.md)
+can be found in the specification of the university management project.
+
 ## Quality Goals 
 
 The top three quality goals for the architecture whose fulfillment is of 
@@ -61,11 +64,12 @@ The quality characteristics are selected in accordance with the ISO 25010 standa
 | *2*      | *Usability*       | *The application should make processes more efficient and save time*          |
 | *3*      | *Maintainability* | *Specific requirements are expected to change during the lifetime of the app* |
 
-The complete overview of quality scenarios can be found in [Quality Scenarios](##quality Scenarios).
+The complete overview of quality scenarios can be found in section [Quality Scenarios](#quality-scenarios).
 
 ## Stakeholders
 
-Found in [Business Requirements Document: Section 6. Sign-off](../materials/university%20managment/brd.md)
+The following table lists all important stakeholder and their expectations
+from the AcademiX project.
 
 | Name            | Role                        | Expectations                                                                                          |
 |-----------------|-----------------------------|-------------------------------------------------------------------------------------------------------|
@@ -74,6 +78,8 @@ Found in [Business Requirements Document: Section 6. Sign-off](../materials/univ
 | *Michael Lee*   | *Chief Information Officer* | *Enable data-driven decision making through reporting and analytics*                                  |
 | *Emily Chen*    | *Student Representative*    | *Enhance communication and collaboration among students*                                              |
 | *Sarah Johnson* | *Financial Officer*         | *Streamline billing and payment processes and guarantee security*                                     |
+
+The stakeholders have been taken from [Business Requirements Document: Section 6. Sign-off](../materials/university%20managment/brd.md)
 
 # Architecture Constraints
 
@@ -93,124 +99,26 @@ Taken from [Business Requirements Document: Section 5. Assumptions and Dependenc
 
 # System Scope and Context
 
-<div class="formalpara-title">
+The following diagram shows the business and technical context of the system.
+More information can be found in the sections:
+- [Context](#context)
 
-**Contents**
+![context_diagram](../materials/images/context_diagram.drawio.png)
 
-</div>
+# Context
 
-System scope and context - as the name suggests - delimits your system
-(i.e. your scope) from all its communication partners (neighboring
-systems and users, i.e. the context of your system). It thereby
-specifies the external interfaces.
+In the following table users have been split up into students, 
+faculty members and professors.
 
-If necessary, differentiate the business context (domain specific inputs
-and outputs) from the technical context (channels, protocols, hardware).
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-The domain interfaces and technical interfaces to communication partners
-are among your system’s most critical aspects. Make sure that you
-completely understand them.
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-Various options:
-
--   Context diagrams
-
--   Lists of communication partners and their interfaces.
-
-See [Context and Scope](https://docs.arc42.org/section-3/) in the arc42
-documentation.
-
-## Business Context
-
-<div class="formalpara-title">
-
-**Contents**
-
-</div>
-
-Specification of **all** communication partners (users, IT-systems, …)
-with explanations of domain specific inputs and outputs or interfaces.
-Optionally you can add domain specific formats or communication
-protocols.
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-All stakeholders should understand which data are exchanged with the
-environment of the system.
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-All kinds of diagrams that show the system as a black box and specify
-the domain interfaces to communication partners.
-
-Alternatively (or additionally) you can use a table. The title of the
-table is the name of your system, the three columns contain the name of
-the communication partner, the inputs, and the outputs.
-
-**\<Diagram or Table>**
-
-**\<optionally: Explanation of external domain interfaces>**
-
-## Technical Context
-
-<div class="formalpara-title">
-
-**Contents**
-
-</div>
-
-Technical interfaces (channels and transmission media) linking your
-system to its environment. In addition a mapping of domain specific
-input/output to the channels, i.e. an explanation which I/O uses which
-channel.
-
-<div class="formalpara-title">
-
-**Motivation**
-
-</div>
-
-Many stakeholders make architectural decision based on the technical
-interfaces between the system and its context. Especially infrastructure
-or hardware designers decide these technical interfaces.
-
-<div class="formalpara-title">
-
-**Form**
-
-</div>
-
-E.g. UML deployment diagram describing channels to neighboring systems,
-together with a mapping table showing the relationships between channels
-and input/output.
-
-**\<Diagram or Table>**
-
-**\<optionally: Explanation of technical interfaces>**
-
-**\<Mapping Input/Output to Channels>**
-
-<div style="page-break-after: always;"></div>
+| Communication Partner         | Inputs                                                                          | Outputs                                                            | Interfaces                                 | Protocols/Formats |
+|-------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------|-------------------|
+| Students                      | Course selections, personal data, assignment submissions, feedback and payments | Course materials, schedules, grades, billing information           | Browser, Web Server                        | HTTPS             |
+| Professors                    | Course content, grades, attendance records and feedback                         | Schedule updates, administrative reports, student performance data | Faculty portal, academic databases         | HTTPS             |
+| Faculty members               | Course information, financial data and timetable override information           | Enrollment reports, financial reports, timetable                   | Administrative dashboard                   | HTTPS             |
+| IT Administrator              | System updates, security patches, user feedback                                 | System status reports, performance metrics                         | IT management tools                        | HTTPS, SSH        |
+| External Educational Partners | Course data, enrollment information                                             | Joint program details, transfer credit information                 | Partner portals, data interchange services | API               |
+| Student Information System    | Student personal information                                                    | Student personal information                                       | Standardised interface to parse data       | API               |
+| Financial System              | Financial information                                                           | Financial information                                              | Standardised interface to parse data       | API               |
 
 # Solution Strategy
 
@@ -219,7 +127,9 @@ and input/output.
 | *Authenticate and authorize users*               | *Dedicated server (LDAP)*                    | **      |
 | *Course and curriculum management*               | *Multi-tier system (Clients, REST, API, DB)* | **      |
 | *Dashboard with relevant information and alerts* | *Web-app (React framework)*                  | **      |
-
+| *Rapid scalability*                              | *Cloud Hosting (AWS)*                        | **      |
+| *Data security and integrity*                    | *Secure Communication Protocols (HTTPS)*     | **      |
+| *Quality assurance*                              | *Automated Testing and CI/CD*                | **      |
 
 # Building Block View
 
