@@ -100,7 +100,7 @@ Taken from [Business Requirements Document: Section 5. Assumptions and Dependenc
 # System Scope and Context
 
 The following diagram shows the business and technical context of the system.
-More information can be found in the sections:
+More information can be found in the section:
 - [Context](#context)
 
 ![context_diagram](../materials/images/context_diagram.drawio.png)
@@ -119,6 +119,7 @@ faculty members and professors.
 | External Educational Partners | Course data, enrollment information                                             | Joint program details, transfer credit information                 | Partner portals, data interchange services | API               |
 | Student Information System    | Student personal information                                                    | Student personal information                                       | Standardised interface to parse data       | API               |
 | Financial System              | Financial information                                                           | Financial information                                              | Standardised interface to parse data       | API               |
+| Directory Server              | User data                                                                       | all object related data                                            | LDAP Interface for authentication          | LDAP              |
 
 # Solution Strategy
 
